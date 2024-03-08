@@ -1,0 +1,38 @@
+.hero-about{
+
+  &__wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 128px 0 126px;
+
+    .hero-about{
+
+      &__box{
+        max-width: 488px;
+        width: 100%;
+
+        &__title{
+          font-weight: 400;
+          font-size: 18px;
+          line-height: 32px;
+          color: #282938;
+          margin-bottom: 8px;
+        }
+
+        &__subtitle{
+          font-weight: 600;
+          font-size: 54px;
+          line-height: 74px;
+          margin-bottom: 31px;
+        }
+
+        &__desc{
+          font-size: 16px;
+          font-weight: 400;
+          text-align: justify;
+        }
+      }
+    }
+  }
+}
