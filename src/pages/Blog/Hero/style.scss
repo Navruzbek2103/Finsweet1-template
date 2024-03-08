@@ -1,0 +1,58 @@
+.hero-home{
+
+  &__container{
+    background-color: #1C1E53;
+
+    .hero-home{
+
+      &__wrapper{
+        padding: 126px 0 128px;
+        background-image: url("./../../../assets/images/hero-bg.png");
+        background-repeat: no-repeat;
+        background-position: right center;
+        background-size: auto;
+
+        .hero-home{
+          &__box{
+            max-width: 582px;
+            width: 100%;
+            border: 1px solid red;
+
+            &__title{
+              font-family: Poppins;
+              font-weight: 600;
+              font-size: 54px;
+              line-height: 74px;
+              margin-bottom: 24px;
+              color: #FFF;
+            }
+
+            &__desc{
+              font-family: Poppins;
+              font-weight: 500;
+              font-size: 16px;
+              line-height: 28px;
+              color: rgba(255, 255, 255, .7);
+              padding-right: 5px;
+              margin-bottom: 48px;
+            }
+
+            &__btnGroup{
+              display: flex;
+              gap: 5px;
+
+              &__link{
+                text-decoration: none;
+                font-family: Poppins;
+                font-weight: 500;
+                color: #FFF;
+                font-size: 16px;
+                line-height: 28px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
