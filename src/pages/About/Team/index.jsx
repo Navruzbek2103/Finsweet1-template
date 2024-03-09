@@ -1,11 +1,13 @@
 import React from 'react';
 import "./style.scss";
-// import { Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import User1 from "./../../../assets/images/team-section-user1.png"
 import User2 from "./../../../assets/images/team-section-user2.png"
 import User3 from "./../../../assets/images/team-section-user3.png"
 import User4 from "./../../../assets/images/team-section-user4.png"
-
+import { FaFacebook } from "react-icons/fa";
+import { FaTwitter } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa";
 
 
 const index = () => {
@@ -22,6 +24,25 @@ const index = () => {
                      <li className="team-about__wrapper__item">
                         <div className="team-about__wrapper__item__userBox">
                            <img src={User1} alt="Users" className="team-about__wrapper__item__userBox__img" />
+                           <div className="team-about__social">
+                              <ul className="team-about__social__list">
+                                 <li className="team-about__social__item">
+                                    <Link to="" className='team-about__social__item__link'>
+                                       <FaFacebook className='team-about__social__item__link__icon' />
+                                    </Link>
+                                 </li>
+                                 <li className="team-about__social__item">
+                                    <Link to="" className='team-about__social__item__link'>
+                                       <FaTwitter className='team-about__social__item__link__icon' />
+                                    </Link>
+                                 </li>
+                                 <li className="team-about__social__item">
+                                    <Link to="" className='team-about__social__item__link'>
+                                       <FaLinkedin className='team-about__social__item__link__icon' />
+                                    </Link>
+                                 </li>
+                              </ul>
+                           </div>
                         </div>
                         <h3 className="team-about__wrapper__item__title">
                            John Smith
@@ -33,6 +54,25 @@ const index = () => {
                      <li className="team-about__wrapper__item">
                         <div className="team-about__wrapper__item__userBox">
                            <img src={User2} alt="Users" className="team-about__wrapper__item__userBox__img" />
+                           <div className="team-about__social">
+                              <ul className="team-about__social__list">
+                                 <li className="team-about__social__item">
+                                    <Link to="" className='team-about__social__item__link'>
+                                       <FaFacebook className='team-about__social__item__link__icon' />
+                                    </Link>
+                                 </li>
+                                 <li className="team-about__social__item">
+                                    <Link to="" className='team-about__social__item__link'>
+                                       <FaTwitter className='team-about__social__item__link__icon' />
+                                    </Link>
+                                 </li>
+                                 <li className="team-about__social__item">
+                                    <Link to="" className='team-about__social__item__link'>
+                                       <FaLinkedin className='team-about__social__item__link__icon' />
+                                    </Link>
+                                 </li>
+                              </ul>
+                           </div>
                         </div>
                         <h3 className="team-about__wrapper__item__title">
                            Simon Adams
@@ -44,6 +84,25 @@ const index = () => {
                      <li className="team-about__wrapper__item">
                         <div className="team-about__wrapper__item__userBox">
                            <img src={User3} alt="Users" className="team-about__wrapper__item__userBox__img" />
+                           <div className="team-about__social">
+                              <ul className="team-about__social__list">
+                                 <li className="team-about__social__item">
+                                    <Link to="" className='team-about__social__item__link'>
+                                       <FaFacebook className='team-about__social__item__link__icon' />
+                                    </Link>
+                                 </li>
+                                 <li className="team-about__social__item">
+                                    <Link to="" className='team-about__social__item__link'>
+                                       <FaTwitter className='team-about__social__item__link__icon' />
+                                    </Link>
+                                 </li>
+                                 <li className="team-about__social__item">
+                                    <Link to="" className='team-about__social__item__link'>
+                                       <FaLinkedin className='team-about__social__item__link__icon' />
+                                    </Link>
+                                 </li>
+                              </ul>
+                           </div>
                         </div>
                         <h3 className="team-about__wrapper__item__title">
                            Paul Jones
@@ -55,6 +114,25 @@ const index = () => {
                      <li className="team-about__wrapper__item">
                         <div className="team-about__wrapper__item__userBox">
                            <img src={User4} alt="Users" className="team-about__wrapper__item__userBox__img" />
+                           <div className="team-about__social">
+                              <ul className="team-about__social__list">
+                                 <li className="team-about__social__item">
+                                    <Link to="" className='team-about__social__item__link'>
+                                       <FaFacebook className='team-about__social__item__link__icon' />
+                                    </Link>
+                                 </li>
+                                 <li className="team-about__social__item">
+                                    <Link to="" className='team-about__social__item__link'>
+                                       <FaTwitter className='team-about__social__item__link__icon' />
+                                    </Link>
+                                 </li>
+                                 <li className="team-about__social__item">
+                                    <Link to="" className='team-about__social__item__link'>
+                                       <FaLinkedin className='team-about__social__item__link__icon' />
+                                    </Link>
+                                 </li>
+                              </ul>
+                           </div>
                         </div>
                         <h3 className="team-about__wrapper__item__title">
                            Sara Hardin

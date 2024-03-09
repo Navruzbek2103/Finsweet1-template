@@ -19,13 +19,25 @@ const index = () => {
                      <address className="footer__left__box">
                         <div className="footer__left__box__first">
                            <p className="footer__left__box__first__title">
-
+                              Email me at
                            </p>
-                           <Link to="" className="footer__left__box__first__link">
+                           <Link to={"mailto:" + "contact@website.com"} className="footer__left__box__first__link">
                               contact@website.com
                            </Link>
                         </div>
+                        <div className="footer__left__box__second">
+                           <p className="footer__left__box__second__title">
+                              Call us
+                           </p>
+                           <Link to={"tel:" + "0927 6277 28525"} className="footer__left__box__first__link">
+                              0927 6277 28525
+                           </Link>
+                        </div>
                      </address>
+                  </div>
+
+                  <div className="footer__right">
+                     
                   </div>
                </div>
             </div>
