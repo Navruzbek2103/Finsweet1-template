@@ -2,6 +2,131 @@
 
   &__container{
     background-color: #1C1E53;
-    padding: 104px 0 92px;
+    padding: 96px 0 92px;
+  }
+
+
+
+  &__top{
+    max-width: 1058px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+    &__left{
+      max-width: 400px;
+      width: 100%;
+
+      &__link{
+        text-decoration: none;
+        margin-bottom: 24px;
+        display: flex;
+
+        &__img{
+          width: 160px;
+          height: 32px;
+        }
+      }
+
+      &__desc{
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 28px;
+        color: rgba(255, 255, 255, .8);
+      }
+    }
+
+    &__right{
+      max-width: 400px;
+      width: 100%;
+
+      &__title{
+        font-weight: 600;
+        font-size: 48px;
+        line-height: 64px;
+        color: #FFF;
+        margin-bottom: 14px;
+      }
+
+      &__desc{
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 28px;
+        color: rgba(244, 246, 252, .8);
+        margin-bottom: 28px;
+      }
+
+      &__list{
+        width: 144px;
+        display: flex;
+        justify-content: space-between;
+      }
+
+      &__item{
+
+        &__link{
+          display: flex;
+          text-decoration: none;
+          color: #FFF;
+
+          &:hover{
+            color: aqua;
+          }
+
+          &__icon{
+            width: 16px;
+            height: 16px;
+          }
+
+        }
+      }
+    }
+  }
+
+  &__address{
+    max-width: 517px;
+    width: 100%;
+    display: flex;
+    background-color: #FCD980;
+    padding: 18px 37px;
+    gap: 30px;
+
+    &__left{
+
+      &__title{
+        font-weight: 500;
+        color: #282938;
+        font-size: 18px;
+        line-height: 32px;
+        margin-bottom: 1px;
+      }
+
+      &__link{
+        color: #282938;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 28px;
+        text-decoration: none;
+      }
+    }
+
+    &__right{
+
+      &__title{
+        color: #282938;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 32px;
+        margin-bottom: 1px;
+      }
+
+      &__link{
+        color: #282938;
+        text-decoration: none;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 28px;
+      }
+    }
   }
 }
