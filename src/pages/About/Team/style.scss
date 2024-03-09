@@ -1,53 +1,65 @@
-.process-about {
-  padding-bottom: 128px;
+.team-about{
 
-  &__wrapper {
+  &__container{
+    background-color: #F4F6FC;
+  }
+
+  &__wrapper{
+    padding: 128px 0;
     display: flex;
     flex-direction: column;
+    align-items: center;
 
-    .process-about {
+    &__title{
+      font-weight: 600;
+      font-size: 48px;
+      line-height: 64px;
+      margin-bottom: 48px;
+    }
 
-      &__top {
-        padding: 96px 95px;
-        background-color: #F4F5F5;
+    &__list{
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+    }
+
+    &__item{
+      max-width: 296px;
+      width: 100%;
+      background-color: #FFF;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 48px 0 32px;
+
+      &__userBox{
+        margin-bottom: 30px;
+        width: 168px;
+        height: 168px;
+        overflow: hidden;
         display: flex;
-        justify-content: space-between;
+        align-items: center;
+        justify-content: center;
 
-        &__left {
-          max-width: 515px;
+        &__img{
           width: 100%;
-
-          &__title {
-            font-weight: 600;
-            font-size: 38px;
-            line-height: 56px;
-            margin-bottom: 16px;
-          }
-
-          &__desc {
-            font-weight: 400;
-            font-size: 16px;
-            line-height: 28px;
-          }
+          height: 100%;
         }
+      }
 
-        &__right {
-          max-width: 515px;
-          width: 100%;
+      &__title{
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 36px;
+        margin-bottom: 2px;
+        color: #1D2130;
+      }
 
-          &__title {
-            font-weight: 600;
-            font-size: 38px;
-            line-height: 56px;
-            margin-bottom: 16px;
-          }
-
-          &__desc {
-            font-weight: 400;
-            font-size: 16px;
-            line-height: 28px;
-          }
-        }
+      &__desc{
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 28px;
+        color: rgba(29, 33, 48, .7);
       }
     }
   }
