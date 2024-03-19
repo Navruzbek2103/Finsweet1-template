@@ -1,0 +1,31 @@
+.clients-home {
+
+  &__container{
+    background-color: rgba(244, 246, 252, .5);
+  }
+
+  &__wrapper {
+    padding: 128px 0;
+    display: flex;
+    justify-content: space-between;
+
+    &__left {
+      width: 327px;
+
+      &__title {
+        color: #282938;
+        font-weight: 600;
+        font-size: 38px;
+        line-height: 56px;
+        margin-bottom: 16px;
+      }
+
+      &__text {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 28px;
+        color: rgba(40, 41, 56, .7);
+      }
+    }
+  }
+}

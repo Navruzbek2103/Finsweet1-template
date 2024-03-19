@@ -3,7 +3,7 @@ import "./style.scss";
 import Hero from "./Hero";
 import Projects from "./Projects";
 import Features from "./Features";
-// import Hero from "./Hero";
+import Clients from "./Clients";
 // import Hero from "./Hero";
 // import Hero from "./Hero";
 // import Hero from "./Hero";
@@ -21,7 +21,7 @@ const index = () => {
          <Hero />
          <Projects />
          <Features />
-         {/* <Hero /> */}
+         <Clients />
          {/* <Hero /> */}
       </div>
    );

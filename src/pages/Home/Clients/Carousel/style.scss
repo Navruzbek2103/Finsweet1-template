@@ -1,0 +1,103 @@
+.carousel-home {
+  position: relative;
+  max-width: 843px;
+  width: 100%;
+  overflow: hidden;
+  height: 255px;
+
+  &__list {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__item {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    // left: -101%;
+    z-index: 2;
+    transition: all .3s ease-in;
+
+    &:nth-child(1) {
+      left: 0;
+    }
+
+    &__title {
+      color: #282938;
+      font-weight: 500;
+      font-size: 32px;
+      line-height: 48px;
+      margin-bottom: 48px;
+    }
+
+    &__userBox {
+      max-width: 250px;
+      width: 100%;
+      display: flex;
+      gap: 14px;
+      align-items: center;
+
+      &__img {
+        width: 52px;
+        height: 52px;
+      }
+
+      &__author {
+
+        &__heading {
+          color: #282938;
+          font-weight: 400;
+          font-size: 18px;
+          line-height: 32px;
+        }
+
+        &__text {
+          color: #282938;
+          font-weight: 400;
+          font-size: 12px;
+          line-height: 28px;
+        }
+      }
+    }
+  }
+
+
+  &__manage {
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    display: flex;
+    gap: 11px;
+    z-index: 9;
+
+    &__btn {
+      border: none;
+      width: 48px;
+      height: 48px;
+      background-color: #fff;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+
+      &__icon {
+        font-size: 40px;
+        border-radius: 50%;
+        color: rgba(40, 41, 56, .6);
+      }
+
+    }
+
+    &__btn__active {
+      background-color: #5239FA;
+
+      .carousel-home__manage__btn__icon {
+        color: #fff;
+      }
+    }
+
+  }
+
+
+}
