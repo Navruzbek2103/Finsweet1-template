@@ -1,6 +1,8 @@
 import React from 'react';
 import "./style.scss";
 import { Link } from 'react-router-dom';
+import { HiOutlineArrowLongRight } from "react-icons/hi2";
+
 
 const index = () => {
    return (
@@ -17,7 +19,10 @@ const index = () => {
                      </p>
                      <div className="hero-home__box__btnGroup">
                         <Link to="" className='hero-home__box__btnGroup__link'>View our work</Link>
-                        <Link to="" className='hero-home__box__btnGroup__link'>View Pricing</Link>
+                        <Link to="" className='hero-home__box__btnGroup__link'>
+                           View Pricing
+                           <HiOutlineArrowLongRight className='hero-home__box__btnGroup__link__icon'/>
+                        </Link>
                      </div>
                   </div>
                </div>

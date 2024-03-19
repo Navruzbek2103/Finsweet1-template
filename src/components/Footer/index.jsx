@@ -73,63 +73,6 @@ const index = () => {
                         </Link>
                      </div>
                   </address>
-
-                  {/* <div className="footer__left">
-                     <Link to="/" className='footer__left__link'>
-                        <img src={SiteLogo} alt="site logo" className="footer__left__link__img" />
-                     </Link>
-                     <p className="footer__left__desc">We are always open to discuss your project and improve your online presence.</p>
-
-                     <address className="footer__left__box">
-                        <div className="footer__left__box__first">
-                           <p className="footer__left__box__first__title">
-                              Email me at
-                           </p>
-                           <Link to={"mailto:" + "contact@website.com"} className="footer__left__box__first__link">
-                              contact@website.com
-                           </Link>
-                        </div>
-                        <div className="footer__left__box__second">
-                           <p className="footer__left__box__second__title">
-                              Call us
-                           </p>
-                           <Link to={"tel:" + "0927 6277 28525"} className="footer__left__box__first__link">
-                              0927 6277 28525
-                           </Link>
-                        </div>
-                     </address>
-                  </div>
-
-                  <div className="footer__right">
-                     <p className="footer__right__title">
-
-                     </p>
-                     <p className="footer__right__desc">
-
-                     </p>
-                     <ul className="footer__right__socialList">
-                        <li className="footer__right__socialItem">
-                           <Link to="" className='footer__right__socialItem__link' >
-                              <FaFacebook className='footer__right__socialItem__link-icon' />
-                           </Link>
-                        </li>
-                        <li className="footer__right__socialItem">
-                           <Link to="" className='footer__right__socialItem__link' >
-                              <FaTwitter className='footer__right__socialItem__link-icon' />
-                           </Link>
-                        </li>
-                        <li className="footer__right__socialItem">
-                           <Link to="" className='footer__right__socialItem__link' >
-                              <FaInstagram className='footer__right__socialItem__link-icon' />
-                           </Link>
-                        </li>
-                        <li className="footer__right__socialItem">
-                           <Link to="" className='footer__right__socialItem__link' >
-                              <FaLinkedin className='footer__right__socialItem__link-icon' />
-                           </Link>
-                        </li>
-                     </ul>
-                  </div> */}
                </div>
             </div>
          </div>

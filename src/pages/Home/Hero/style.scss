@@ -16,7 +16,7 @@
           &__box{
             max-width: 582px;
             width: 100%;
-            border: 1px solid red;
+
 
             &__title{
               font-family: Poppins;
@@ -39,9 +39,24 @@
 
             &__btnGroup{
               display: flex;
-              gap: 5px;
+              gap: 40px;
 
-              &__link{
+              &__link:first-child{
+                font-family: "Manrope";
+                font-weight: 600;
+                font-size: 18px;
+                line-height: 32px;
+                color: #1B1C2B;
+                padding: 16px 56px;
+                background-color: #FCD980;
+                border-radius: 41px;
+                text-decoration: none;
+              }
+
+              &__link:nth-child(2){
+                display: flex;
+                align-items: center;
+                gap: 16px;
                 text-decoration: none;
                 font-family: Poppins;
                 font-weight: 500;
